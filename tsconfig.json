@@ -1,3 +1,20 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "target": "ES6"
+  },
+  "include": [
+    "*.vue",
+    "*.ts"
+  ],
+  "paths": {
+    "*": [
+      "types/global.d.ts"
+    ]
+  }
 }

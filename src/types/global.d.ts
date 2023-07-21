@@ -1,0 +1,3 @@
+interface ObjInterface {
+    foo: string
+}
