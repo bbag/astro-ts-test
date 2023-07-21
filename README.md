@@ -1,3 +1,13 @@
+# Repo for showing TS error
+
+Discord issue thread: https://discord.com/channels/830184174198718474/1132039768440574012
+
+TypeScript seems unable to find any imported `.astro` or `.vue` components, for example on my `index.astro` page: `import Layout from "../layouts/Layout.astro"` says `Cannot find module '../layouts/Layout.astro' or its corresponding type declarations.`
+
+However, the paths are correct and the page itself builds just fine with those imported components.
+
+Oddly enough, it seems to find the path for other packages and `.ts` files just fine, e.g. `import someComposable from '../composables/someComposable'`
+
 # Astro Starter Kit: Basics
 
 ```
